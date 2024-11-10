@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Botones para Modo Claro y Oscuro</title>
+    <style>
+        /* Estilos para el modo claro (predeterminado) */
+        body {
+            background-color: white;
+            color: black;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        /* Estilos para el modo oscuro */
+        .dark-mode {
+            background-color: black;
+            color: white;
+        }
+
+        /* Estilos para los botones */
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Modo Claro y Oscuro</h1>
+
+    <!-- Botón para activar el modo claro -->
+    <button onclick="activarModoClaro()">Modo Claro</button>
+
+    <!-- Botón para activar el modo oscuro -->
+    <button onclick="activarModoOscuro()">Modo Oscuro</button>
+
+    <script>
+        // Función para activar el modo claro
+        function activarModoClaro() {
+            document.body.classList.remove("dark-mode");
+        }
+
+        // Función para activar el modo oscuro
+        function activarModoOscuro() {
+            document.body.classList.add("dark-mode");
+        }
+    </script>
+
+</body>
+</html>
+
+<h6>[Documento creado por ChatGPT]</h6>

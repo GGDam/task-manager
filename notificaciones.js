@@ -1,10 +1,10 @@
 //linea de programa 1
 //linea de programa 2
 //linea de programa 3
-
+//linea de programa 4
 //linea de programa 5
 //linea de programa 6
-
+//linea de programa 7
 //linea de programa 8
 //linea de programa 9
 //linea de programa 10
@@ -19,3 +19,6 @@
 //linea de programa 19
 //linea de programa 20
 //linea de programa 21
+
+
+//punto numero 6, sigo trabajando en el documento en la rama de notificaciones

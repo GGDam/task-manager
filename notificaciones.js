@@ -19,3 +19,6 @@
 //linea de programa 19
 //linea de programa 20
 //linea de programa 21
+
+
+//punto numero 6, sigo trabajando en el documento en la rama de notificaciones
